@@ -1,18 +1,18 @@
-Module.register("MMM-SpaceX", {
+Module.register("MMM-Space-Launches", {
 
 	// Default module config.
 	defaults: {
 		updateInterval: 60 * 60 * 1000,
 		animationSpeed: 1000,
 		lang: config.language,
-		records: 5,
+		records: 10,
 		modus: "upcoming",
 		showExtraInfo: false,
 		showColumnHeader: false,
 		initialLoadDelay: 1000,
 		retryDelay: 30 * 1000,
-		headerText: "SpaceX Flight Data",
-		apiBase: "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?search=spacex&mode=detailed&format=json",
+		headerText: "Space Flight Data",
+		apiBase: "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?mode=detailed&format=json",
 		tableClass: "small",
 		spacexlogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SpaceX-Logo-Xonly.svg/1280px-SpaceX-Logo-Xonly.svg.png",
 		nasalogo: "https://cdn.iconscout.com/icon/free/png-128/nasa-282190.png",
