@@ -2,7 +2,7 @@
 
 This is a module for [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-This module will show all recent or future launches based on the Space Devs Launch API [The Space Devs](https://thespacedevs.com/). I forked this from @Xsorfic as his fork to the main module specifically focused on SpaceX launches.  I found that I can change the API query base, and retrieve ALL launches, but did not want to detract from the SpaceX module he created.  I may work at trying to code in a way to filter the providers, but I like seeing all.    
+This module will show all recent or future launches based on the Space Devs Launch API [The Space Devs](https://thespacedevs.com/). I forked this from [Xsorifc28's SpaceX Launch Module](https://github.com/xsorifc28/MMM-SpaceX) as his fork to the main module specifically focused on SpaceX launches.  I found that I can change the API query base, and retrieve ALL launches, but did not want to detract from the SpaceX module he created.  I may work at trying to code in a way to filter the providers, but I like seeing all launches and I'm not great at Javascript.    
 
 ## Installation
 1. Navigate to your MagicMirror's modules folder, and run the following command: `git clone https://github.com/patrickaclark/MMM-Space-Launches.git`
