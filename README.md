@@ -32,7 +32,7 @@ var config = {
 
 | Option            | Description
 |-------------------|--------------------------------------------
-| `records`         | *Optional* - The number of lines you want to show <br>*Default:* 5
+| `records`         | *Optional* - The number of lines you want to show <br>*Default:* 10
 | `modus`           | *Optional* - 'past' for past launches, 'upcoming' for future launches <br>*Default:* past
 | `showExtraInfo`   | *Optional* - Do you want to show the launchsite (true) or not (false) <br>*Default:* false
 | `showColumnHeader`| *Optional* - Choose if you want to see columnheadings <br>*Default:* false
